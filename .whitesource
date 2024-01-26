@@ -1,3 +1,15 @@
 {
   "settingsInheritedFrom": "JordanHdemocorp-mend/whitesource-config@main"
 }
+{ 
+  "scanSettings": {
+    "baseBranches": ["development"]
+  },
+  "imageSettings": {
+    "imageTracing": {
+        "enableImageTracingPR": true,
+        "addDockerfilePath": true,
+        "addRepositoryCoordinates": true
+    }
+  }
+}
